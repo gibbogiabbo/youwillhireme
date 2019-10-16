@@ -62,3 +62,7 @@ npm-debug.log
 
 # next.js build output
 .next
+
+#docker
+Dockerfile
+.dockerignore
