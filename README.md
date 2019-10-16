@@ -8,7 +8,7 @@ Setup:
  3. Run: npm install
  4. Run: nodemon setup.js
  
-Now you should be able to perform HTTP GET call to your service @ localhost:8080/convert
+At this point you should be able to perform HTTP GET call to your service @ localhost:8080/convert
 
 There are 4 arguments that must be passed as input in querystring:
  1. amount : a number representing the amount in the src_currency to be converted in the dest_currency;
