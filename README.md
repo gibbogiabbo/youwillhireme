@@ -11,10 +11,10 @@ Setup:
 Now you should be able to perform HTTP GET call to your service @ localhost:8080/convert
 
 There are 4 arguments that must be passed as input in querystring:
- 1. amount : a number representing the amount of the src_currency to be converted in the dest_currency;
- 2. src_currency : 3 char standard for the currency of the give amount
- 3. dest_currency : 3 char standard for the currency conversion target
- 4. reference_date : a date in format YYYY-MM-DD for the conversion rates to be applied (conversion rates source: https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml)
+ 1. amount : a number representing the amount in the src_currency to be converted in the dest_currency;
+ 2. src_currency : 3 char standard for the currency related to the amount to be converted
+ 3. dest_currency : 3 char standard for the target currency
+ 4. reference_date : a date in format YYYY-MM-DD for the actual rates to be applied (conversion rates source: https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist-90d.xml)
 
 Some call examples:
  - http://localhost:8080/convert?amount=10&src_currency=JPY&dest_currency=RON&reference_date=2019-07-22
